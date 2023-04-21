@@ -1,5 +1,15 @@
+import SearchForm from './SearchForm';
+import Buttons from './Buttons';
+import Stories from './Stories';
+
 function App() {
-  return <h1>hi</h1>;
+  return (
+    <>
+      <SearchForm />
+      <Buttons />
+      <Stories />
+    </>
+  );
 }
 
 export default App;
